@@ -36,7 +36,7 @@ client.on('ready', function () {
 });
 client.on("messageCreate", function (msg) {
     if (msg.content === "bruh") {
-        msg.reply("breh");
+        msg.reply("breh!");
     }
 });
 client.login(process.env.TOKEN);
